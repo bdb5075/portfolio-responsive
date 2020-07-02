@@ -298,6 +298,15 @@ img {
 #work a:hover {
   color: #ff6b6b;
 }
+
+#work span {
+  font-family: "Satisfy", cursive;
+  color: #ffce6b;
+}
+
+.github {
+  margin: 150px auto;
+}
 /*Contact page ============== */
 #contact h2 {
   font-size: 3rem;
