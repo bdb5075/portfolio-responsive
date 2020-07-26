@@ -229,10 +229,10 @@ img {
 
 #about-bottom p {
   color: #324256;
-  font-size: 2rem;
+  font-size: 2.5rem;
   width: 90%;
   margin:5%;
-  text-align: center;
+  text-align: left;
 }
 
 /* Work Page ============= */
@@ -280,9 +280,9 @@ img {
 }
 
 #work h4 {
-  font-size:2.2rem;
+  font-size:2rem;
   text-align: center;
-  margin: 0 20%;
+  margin: 10px;
 }
 #work .work-example p {
   margin: 0;
@@ -295,6 +295,7 @@ img {
   text-decoration: none;
   color: #324256;
 }
+
 #work a:hover {
   color: #ff6b6b;
 }
@@ -304,9 +305,44 @@ img {
   color: #ffce6b;
 }
 
-.github {
-  margin: 150px auto;
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
 }
+
+.project-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.project-img {
+  width: 60%;
+  padding-bottom: 75%;
+}
+
+#hair-masters-img {
+  background: url('../img/hair-masters-img.png') no-repeat center center / cover;
+}
+
+#unplugged-img {
+  background: url('../img/unplugged-img.png');
+  background-size: cover;
+}
+
+.github {
+  margin: 100px auto 0 auto;
+  padding-bottom: 150px;
+  border-bottom: 1px dotted #324256;
+}
+
+.github p {
+  font-size: 3rem;
+}
+
 /*Contact page ============== */
 #contact h2 {
   font-size: 3rem;
@@ -486,7 +522,7 @@ footer h3 {
   }
 
   #about-bottom p {
-    font-size: 2.5rem;
+    font-size: 1.7rem;
   }
 
 /*Work Section =========== */
@@ -510,8 +546,23 @@ footer h3 {
   }
 
   #work h4 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
+
+  .project-card {
+    width: 30%;
+  }
+ 
+  .project-img {
+    width: 100%;
+    padding-bottom: 125%;
+  }
+
+  .github {
+  margin: 150px auto;
+  padding-bottom: 150px;
+  border-bottom: 1px dotted #324256;
+}
 
 /* Contact ================== */
   #contact h2 {
