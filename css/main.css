@@ -167,13 +167,14 @@ nav ul li a:hover {
 }
 
 .hero-area {
-  padding-top: 5%;
+  
 }
+
 .hero-area h2 {
   width: 96%;
   font-size: 3.5rem;
   text-align: center;
-  margin: 0;
+  margin: 75px auto;
   line-height: 1.2em;
 }
 
@@ -186,7 +187,7 @@ nav ul li a:hover {
   font-size: 2rem;
   width: 90%;
   text-align: center;
-  margin: 5%;
+  margin: 0 auto;
 }
 .btn {
   background-color: #ff6b6b;
@@ -199,7 +200,7 @@ nav ul li a:hover {
   box-shadow: 2px 2px 0px #DADADA;
   width: 50%;
   display: inline-block;
-  margin: 0 25% 5% 25%;
+  margin: 75px 25%;
   text-decoration: none;
   font-size: 1.5rem;
 }
@@ -215,12 +216,12 @@ img {
 }
 
 #about-top {
-  background-color: #324256;
+  /*background-color: #324256;*/
   overflow: hidden;
 }
 
 #about-top h2 {
-  color: #f7fafe;
+  /*color: #f7fafe;*/
   font-size: 3rem;
   text-transform: uppercase;
   margin: 10% 0 0 15%;
@@ -503,6 +504,7 @@ footer h3 {
 
   .hero-area h2 {
     font-size: 3.5rem;
+    margin: 100px auto;
   }
 
   .hero-area p {
@@ -511,7 +513,7 @@ footer h3 {
 
   .btn {
     width: 20%;
-    margin: 0 40% 5% 40%;
+    margin: 100px 40%;
   }
 
 /* About Section ========== */
