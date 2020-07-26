@@ -144,10 +144,12 @@ header h3 {
 nav ul {
   text-align: center;
   padding: 0;
-  border-top: 3px solid #ffffff;
-  border-bottom: 3px solid #ffffff;
+  /*border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;*/
   background-color: #324256;
+  margin-bottom: 0;
 }
+
 nav ul li {
   display: inline-block;
   padding: 10px;
