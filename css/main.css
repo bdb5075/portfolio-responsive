@@ -336,6 +336,26 @@ img {
   background-size: cover;
 }
 
+#memory-img {
+  background: url('../img/memory.png') no-repeat center center / cover;
+}
+
+#monty-hall-img {
+  background: url('../img/monty-hall.png') no-repeat center center / cover;
+}
+
+#unplugged-retreat-img {
+  background: url('../img/unplugged-retreat.png') no-repeat center center / cover;
+}
+
+#robofriends-img {
+  background: url('../img/robofriends.png') no-repeat center center / cover;
+}
+
+#color-game-img {
+  background: url('../img/color-game.png') no-repeat center center / cover;
+}
+
 .github {
   margin: 100px auto 0 auto;
   padding-bottom: 150px;
