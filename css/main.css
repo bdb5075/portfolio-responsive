@@ -167,7 +167,7 @@ nav ul li a:hover {
 }
 
 .hero-area {
-  
+
 }
 
 .hero-area h2 {
@@ -356,6 +356,13 @@ img {
   background: url('../img/color-game.png') no-repeat center center / cover;
 }
 
+#todo-img {
+  background: url('../img/todo-img.png') no-repeat center center / cover;
+}
+
+#recipes-img {
+  background: url('../img/recipes-img.png') no-repeat center center / cover;
+}
 .github {
   margin: 100px auto 0 auto;
   padding-bottom: 150px;
@@ -576,7 +583,7 @@ footer h3 {
   .project-card {
     width: 30%;
   }
- 
+
   .project-img {
     width: 100%;
     padding-bottom: 125%;
